@@ -18,4 +18,4 @@ class AnalysisToolbox():
             .join(pd.DataFrame(df_num.kurtosis(), columns=['Kurtosis']))\
             .join(pd.DataFrame(df_num.std()/df_num.mean(), columns=['Coefficient of Variation']))
         
-    
+    f
